@@ -19,7 +19,7 @@ puts 'creat users success'
 
 nails = Category.create title: 'Nails', image: 'https://images-na.ssl-images-amazon.com/images/I/61odgeUFWvL._SY355_.jpg'
 hair = Category.create title: 'Hairdressing', image: 'https://www.lasrias.com.au/wp-content/uploads/2017/10/Screen-Shot-2017-10-25-at-9.56.49-am.png'
-eye = Category.create title: 'Eyes, Brows & Lashes', image: 'https://acharmedlifenailsalon.com/wp-content/uploads/2017/02/eyelashes2-1500x430.jpg'
+eye = Category.create title: 'Eyes, Brows & Lashes', image: 'http://www.pak101.com/userfiles/2016/11/25/images/Natural%20Remedies%20To%20Grow%20Thicker%20And%20Longer%20Eyebrows%20And%20Eyelashes.jpg'
 
 puts 'create categories success'
 
