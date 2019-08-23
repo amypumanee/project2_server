@@ -3,7 +3,7 @@ Rails.application.routes.draw do
   resources :services
   resources :retails
   resources :customers
-  resources :users, :only => [:new, :create, :index]
+  resources :users
   resources :categories
   get '/login' => 'session#new'
   post '/login' => 'session#create'
